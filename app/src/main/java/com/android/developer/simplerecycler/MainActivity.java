@@ -98,6 +98,7 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
             @Override
             public void onResponse(Call<RootModel> call, Response<RootModel> response) {
                 // fetch json using array and getter setter
+                System.out.println("error of parsing json :  " );
                 try {
 
                     System.out.println("Result of api is :" + response.body().getMessage());
