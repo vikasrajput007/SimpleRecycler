@@ -76,6 +76,10 @@ public class MainActivity extends AppCompatActivity implements SwipeRefreshLayou
                     public void run() {
 
                         getData();
+                        
+                        /**
+                         * some one can fixes my bug
+                         **/
 
                     }
                 });
